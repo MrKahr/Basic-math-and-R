@@ -24,6 +24,6 @@ quad_solve <- function(a,b,c){
     cat('There are multiple solutions to x, the solution is ',quad_result_pos,'\nand',quad_result_neg,'.')
   }
 }
-# The function and its required i.e. non-optional, parameters. 
+# The function and its required i.e. non-optional, parameters a,b and c. 
 quad_solve(2,3,2)
 
